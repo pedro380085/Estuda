@@ -1,0 +1,45 @@
+<LanguageXML>
+  <IDIOMA__>Português - Brasil</IDIOMA__>
+  <SOFTWARE__TITLE>Sistema de Autoria</SOFTWARE__TITLE>
+  <CREATE__LIST>Nova Lista</CREATE__LIST>
+  <EDIT__LIST>Editar Lista</EDIT__LIST>
+  <EXIT>Sair</EXIT>
+  <LANGUAGE>Idioma:</LANGUAGE>
+  <EDIT__QUESTION>Questão</EDIT__QUESTION>
+  <SAVE__QUESTION>Salvar Questão</SAVE__QUESTION>
+  <CORRECT_ALTERNATIVE>* indica a Alternativa Correta</CORRECT_ALTERNATIVE>
+  <BACK>Voltar</BACK>
+  <ADD>Adicionar</ADD>
+  <REMOVE>Remover</REMOVE>
+  <EDIT>Editar</EDIT>
+  <TITLE>Título</TITLE>
+  <THEME>Tema:</THEME>
+  <AUTHOR>Autor:</AUTHOR>
+  <ENUNCIATION>Enunciado:</ENUNCIATION>
+  <HEADER>Cabeçalho</HEADER>
+  <ALTERNATIVES>Alternativas</ALTERNATIVES>
+  <ENUNCIATION__TOOLTIP>Digite aqui o enunciado da questão, obrigatório</ENUNCIATION__TOOLTIP>
+  <EMPTY__1>Campo do enunciado est� vazio!</EMPTY__1>
+  <EMPTY__2>A questão deve ter no mínimo duas alternativas.</EMPTY__2>
+  <EMPTY__3>Não foi adicionado alternativa correta!</EMPTY__3>
+  <EMPTY__4>Alternativa não possui texto</EMPTY__4>
+  <NO__ALTERNATIVE__SELECTED>Selecione uma alternativa.</NO__ALTERNATIVE__SELECTED>
+  <QUESTION__LIST>Lista de Questões</QUESTION__LIST>
+  <SAVE__AS>Salvar Como...</SAVE__AS>
+  <OBS>Obs:</OBS>
+  <QUESTIONS>Questões</QUESTIONS>
+  <OBS__TOOLTIP>Digite aqui observações e informações extras à lista de questões se julgar necessário.</OBS__TOOLTIP>
+  <SAVE__SUCCESS>Lista salva com sucesso!</SAVE__SUCCESS>
+  <SAVE__ERROR>Erro ao salvar a lista</SAVE__ERROR>
+  <EMPTY__5>Existem campos obrigat�rios n�o preenchidos!</EMPTY__5>
+  <EMPTY__QUESTIONS>Não há questões na lista!</EMPTY__QUESTIONS>
+  <NO__QUESTION__SELECTED>Selecione uma quest�o</NO__QUESTION__SELECTED>
+  <IMPORT>Importar Questão</IMPORT>
+  <ALTERNATIVE>Alternativa</ALTERNATIVE>
+  <SAVE__ALTERNATIVE>Salvar Alternativa</SAVE__ALTERNATIVE>
+  <ALTERNATIVE__TOOLTIP>Digite aqui o texto de uma alternativa.</ALTERNATIVE__TOOLTIP>
+  <ANSWER>Correta</ANSWER>
+  <ANSWER__TOOLTIP>Marque se esta for a alternativa correta.</ANSWER__TOOLTIP>
+  <REPLACE__ANSWER>Ja existe uma alternativa correta, deseja substitui-la?</REPLACE__ANSWER>
+  <XML_ERROR>Arquivo selecionado não é lista de questões ou está corrompido</XML_ERROR>
+</LanguageXML>

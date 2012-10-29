@@ -1,0 +1,94 @@
+<ListaQuestoes Titulo="Lista de exercicios de C">
+  <Tema>Programação/Computação</Tema>
+  <Autor>Vinicius Lovato</Autor>
+  <Data>23/03/2012 - 15:47</Data>
+  <Obs>Para iniciantes em linguagem C</Obs>
+  <Idioma>Português - Brasil</Idioma>
+  <VersaoPlataforma>1</VersaoPlataforma>
+  <Permutar>Sim</Permutar>
+  <Questao Titulo="Questão 1">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>Quantos bytes é necessário para armazenar um int?</Enunciado>
+    <Correta>172532</Correta>
+    <Permutar>Nao</Permutar>
+    <Alternativa>1 byte</Alternativa>
+    <Alternativa>2 bytes</Alternativa>
+    <Alternativa>4 bytes</Alternativa>
+    <Alternativa>8 bytes</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 2">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>Como se declara um vetor estático em C?</Enunciado>
+    <Correta>95142</Correta>
+    <Permutar>Sim</Permutar>
+    <Alternativa>int vetor;</Alternativa>
+    <Alternativa>int vetor[MAX];</Alternativa>
+    <Alternativa>int *vetor;</Alternativa>
+    <Alternativa>int []vetor;</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 3">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>Como declarar uma string alocada em C?</Enunciado>
+    <Correta>77721</Correta>
+    <Permutar>Sim</Permutar>
+    <Alternativa>String str;</Alternativa>
+    <Alternativa>char str;</Alternativa>
+    <Alternativa>char *str;</Alternativa>
+    <Alternativa>char str[MAX];</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 4">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>Qual destes não podem variar no espaço alocado?</Enunciado>
+    <Correta>230042</Correta>
+    <Permutar>Sim</Permutar>
+    <Alternativa>struct estrutura;</Alternativa>
+    <Alternativa>struct *estrutura;</Alternativa>
+    <Alternativa>int *a;</Alternativa>
+    <Alternativa>int a;</Alternativa>
+    <Alternativa>int **matriz;</Alternativa>
+    <Alternativa>void *p;</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 5">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>O que é uma função em C?</Enunciado>
+    <Correta>280452</Correta>
+    <Permutar>Nao</Permutar>
+    <Alternativa>Parte de um programa.</Alternativa>
+    <Alternativa>Um bloco de código que pode ser utilizado diversas vezes na execução de um programa.</Alternativa>
+    <Alternativa>Uma estrutura da linguagem C que pode ser utilizada para que um programa fique mais organizado.</Alternativa>
+    <Alternativa>Um bloco de código que pode receber parâmetros, processá-los e retornar alguma coisa.</Alternativa>
+    <Alternativa>Todas opções acima.</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 6">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>A linguagem C tem este nome porque foi a sucessora da linguagem B.</Enunciado>
+    <Correta>30550</Correta>
+    <Permutar>Nao</Permutar>
+    <Alternativa>Verdadeiro</Alternativa>
+    <Alternativa>Falso.</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 7">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>A instrução #include &lt;stdio.h&gt;  no programa é colocada para que possamos utilizar as funções scanf e printf</Enunciado>
+    <Correta>30550</Correta>
+    <Permutar>Nao</Permutar>
+    <Alternativa>Verdadeiro</Alternativa>
+    <Alternativa>Falso.</Alternativa>
+  </Questao>
+  <Questao Titulo="Questão 8">
+    <Tema></Tema>
+    <Autor></Autor>
+    <Enunciado>Sendo i uma variável inteira, a seguinte chamada a scanf é válida:  scanf(&quot;%d&quot;, i);</Enunciado>
+    <Correta>117862</Correta>
+    <Permutar>Nao</Permutar>
+    <Alternativa>Verdadeiro</Alternativa>
+    <Alternativa>Falso.</Alternativa>
+  </Questao>
+</ListaQuestoes>

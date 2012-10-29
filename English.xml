@@ -1,0 +1,45 @@
+<LanguageXML>
+  <IDIOMA__>English</IDIOMA__>
+  <SOFTWARE__TITLE>Authorship System</SOFTWARE__TITLE>
+  <CREATE__LIST>New List</CREATE__LIST>
+  <EDIT__LIST>Edit List</EDIT__LIST>
+  <EXIT>Exit</EXIT>
+  <LANGUAGE>Language:</LANGUAGE>
+  <EDIT__QUESTION>Question</EDIT__QUESTION>
+  <SAVE__QUESTION>Save Question</SAVE__QUESTION>
+  <CORRECT_ALTERNATIVE>* indicates the correct answer</CORRECT_ALTERNATIVE>
+  <BACK>Back</BACK>
+  <ADD>Add</ADD>
+  <REMOVE>Remove</REMOVE>
+  <EDIT>Edit</EDIT>
+  <TITLE>Title:</TITLE>
+  <THEME>Theme:</THEME>
+  <AUTHOR>Author:</AUTHOR>
+  <ENUNCIATION>Enunciation:</ENUNCIATION>
+  <HEADER>Header</HEADER>
+  <ALTERNATIVES>Alternatives</ALTERNATIVES>
+  <ENUNCIATION__TOOLTIP>Type here a enunciation of the question.</ENUNCIATION__TOOLTIP>
+  <EMPTY__1>The enunciation is empty!</EMPTY__1>
+  <EMPTY__2>The Question should have at least two alternatives.</EMPTY__2>
+  <EMPTY__3>Correc answer was not added!</EMPTY__3>
+  <EMPTY__4>The alternative text is empty!</EMPTY__4>
+  <NO__ALTERNATIVE__SELECTED>Select a alternative.</NO__ALTERNATIVE__SELECTED>
+  <QUESTION__LIST>Question List</QUESTION__LIST>
+  <SAVE__AS>Save as...</SAVE__AS>
+  <OBS>Extra:</OBS>
+  <QUESTIONS>Questions</QUESTIONS>
+  <OBS__TOOLTIP>Enter here additional comments and information to the list.</OBS__TOOLTIP>
+  <SAVE__SUCCESS>List successfully saved!</SAVE__SUCCESS>
+  <SAVE__ERROR>Error. The List was not saved.</SAVE__ERROR>
+  <EMPTY__5>There are empty required fields!</EMPTY__5>
+  <EMPTY__QUESTIONS>There are no questions in the List!</EMPTY__QUESTIONS>
+  <NO__QUESTION__SELECTED>Select a question.</NO__QUESTION__SELECTED>
+  <IMPORT>Import</IMPORT>
+  <ALTERNATIVE>Alternative</ALTERNATIVE>
+  <SAVE__ALTERNATIVE>Save Alternative</SAVE__ALTERNATIVE>
+  <ALTERNATIVE__TOOLTIP>Type here the Alternative text.</ALTERNATIVE__TOOLTIP>
+  <ANSWER>Answer</ANSWER>
+  <ANSWER__TOOLTIP>Check if this is the answer.</ANSWER__TOOLTIP>
+  <REPLACE__ANSWER>There is already a correct answer, want to replace it?</REPLACE__ANSWER>
+  <XML_ERROR>Error: corrupt file</XML_ERROR>
+</LanguageXML>

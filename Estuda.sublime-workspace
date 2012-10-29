@@ -1,0 +1,764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"length"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"load",
+				"loadData"
+			],
+			[
+				"boar",
+				"board"
+			],
+			[
+				"board",
+				"boardContent"
+			],
+			[
+				"toolBox",
+				"toolBoxWrapper"
+			],
+			[
+				"document",
+				"documentID"
+			],
+			[
+				"documen",
+				"documentID"
+			],
+			[
+				"late",
+				"lateralContent"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"hei",
+				"heightRatio"
+			],
+			[
+				"pr",
+				"printDataDevice"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"sma",
+				"smallShift"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"padding-t",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
+				"outp",
+				"outputSize"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"expo",
+				"exportData"
+			],
+			[
+				"time",
+				"timers"
+			],
+			[
+				"scre",
+				"screenRatioSelected"
+			],
+			[
+				"wind",
+				"windowRatio"
+			],
+			[
+				"screen",
+				"screenRatio"
+			],
+			[
+				"h2",
+				"H2"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"no",
+				"no_round"
+			],
+			[
+				"no_",
+				"no_bold"
+			],
+			[
+				"sc",
+				"SCRIPT	Tag"
+			],
+			[
+				"if",
+				"ife	if … else"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/prancheta.js",
+			"settings":
+			{
+				"buffer_size": 12199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ajaxPrancheta.php",
+			"settings":
+			{
+				"buffer_size": 2125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prancheta.php",
+			"settings":
+			{
+				"buffer_size": 2821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/default.css",
+			"settings":
+			{
+				"buffer_size": 13331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/core.php",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/loginCheck.php",
+			"settings":
+			{
+				"buffer_size": 1505,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "connection.php",
+			"settings":
+			{
+				"buffer_size": 699,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "developer/index.php",
+			"settings":
+			{
+				"buffer_size": 7201,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"snippe",
+				"Snippet: main()"
+			],
+			[
+				"pr",
+				"Project: Close"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"br",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"fetc",
+				"Fetch: Manage remote files"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"toggle",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tog",
+				"View: Toggle Tabs"
+			],
+			[
+				"func",
+				"Snippet: Function"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"snippet",
+				"Snippet: SERVER['…']"
+			],
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"togg",
+				"View: Toggle Tabs"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 415.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pedro/Sites/Estuda/js/jquery.wysiwyg.js",
+		"/Users/pedro/Sites/Estuda/includes/header.php",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/pedro/Desktop/cliente.txt",
+		"/Users/pedro/Downloads/cc/black/png/export_icon&48.png",
+		"/Users/pedro/Sites/Teste/.idea/codeStyleSettings.xml",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/C++/#include-(basic).sublime-snippet",
+		"/Users/pedro/Sites/Presenca/README.md",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/pedro/Sites/Teste/my-class.php",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/pedro/Sites/Estuda/style.css",
+		"/Users/pedro/Sites/Teste/folder/button.css",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/User/jquery.js",
+		"/Users/pedro/Sites/Estuda/ajax.php",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/pedro/Sites/Estuda/css/jquery-ui-1.8.21.custom.css",
+		"/Users/pedro/Sites/Estuda/core.php",
+		"/Users/pedro/Sites/Estuda/css/default.css"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"setCon",
+			"height",
+			"documentID",
+			"showDocuments",
+			"loadDocument",
+			"this",
+			"saveForm",
+			"showDocumentos",
+			"$(\".toolBoxOptionsSave\")",
+			"userid",
+			"memberID",
+			"json_string",
+			"field_json",
+			"mytable",
+			"memberID",
+			"documentID",
+			"memberID",
+			"documentID",
+			"memberID",
+			"documentID",
+			"getContent",
+			"position",
+			"top",
+			"left",
+			"gfdg",
+			"width",
+			"deviceContent",
+			"iPhoneDevice",
+			"05",
+			"2",
+			"(\".lat",
+			"width",
+			"right",
+			"\n#",
+			"screenRatioSelected",
+			"<h2>.*</h2>",
+			"h2",
+			"h3",
+			"h",
+			"h2",
+			">\n",
+			"h",
+			"	\n",
+			"h2",
+			"h",
+			"passado",
+			"password",
+			"open",
+			"browser",
+			"open",
+			"var",
+			"argument",
+			"isset",
+			"else",
+			"print",
+			"else",
+			"print"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/prancheta.js",
+					"settings":
+					{
+						"buffer_size": 12199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3555,
+								3555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1845.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ajaxPrancheta.php",
+					"settings":
+					{
+						"buffer_size": 2125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1617,
+								1617
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "prancheta.php",
+					"settings":
+					{
+						"buffer_size": 2821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/default.css",
+					"settings":
+					{
+						"buffer_size": 13331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10346,
+								10346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7614.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "includes/core.php",
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "includes/loginCheck.php",
+					"settings":
+					{
+						"buffer_size": 1505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "connection.php",
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "developer/index.php",
+					"settings":
+					{
+						"buffer_size": 7201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5912,
+								5912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2220.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"developer/index.php"
+			],
+			[
+				"defa",
+				"css/default.css"
+			],
+			[
+				".css",
+				".idea/codeStyleSettings.xml"
+			],
+			[
+				"api/i",
+				"developer/api/index.php"
+			],
+			[
+				"core",
+				"includes/core.php"
+			],
+			[
+				"a",
+				"ajax.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/pedro/Sites/Presenca/Presenca.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true
+}
