@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font: 26px Georgia, "Times New Roman", Times, serif; /* Fonte maior */
+	font: 23px Georgia, "Times New Roman", Times, serif; /* Fonte maior */
 	margin: 0 auto;
 	background-color: #E9E9E9;
 }
@@ -11,15 +11,14 @@ body {
 /* @group Centralize */
 
 .centralize {
-	max-width: 960px;
-	min-width: 960px;
+	width: 960px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .centralize .header {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin: 0;
-	text-align: left;
 }
 
 ul {
@@ -103,10 +102,7 @@ table, th, tr, td {
 	box-shadow: 0 1px black, 0 2px 1px rgba(0, 0, 0, .4);
 	-moz-box-shadow: 0 1px #000, 0 2px 1px rgba(0, 0, 0, .4);
 	-webkit-box-shadow: 0 1px black, 0 2px 1px rgba(0, 0, 0, .4);
-	position: fixed;
-	width: 100%;	
-	z-index: 15;
-	top: 0;
+	width: 100%;
 }
 
 #menuContent {
@@ -118,7 +114,6 @@ table, th, tr, td {
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
-	display: inline;
 }
 
 #menuContent li {
@@ -126,7 +121,7 @@ table, th, tr, td {
 	padding: 15px;
 	margin: 0;
 	width: 202px;
-	border: 1px inset #333;
+	border-right: 1px inset #333;
 	-moz-box-shadow: -1px 0 black inset;
 	-webkit-box-shadow: -1px 0 black inset;
 	box-shadow: -1px 0 black inset;
@@ -145,6 +140,8 @@ table, th, tr, td {
 	text-decoration: none;
 	color: white;
 	cursor: pointer;
+	margin: 0;
+	padding: 0;
 }
 
 /* @end */
@@ -153,13 +150,12 @@ table, th, tr, td {
 
 #logoContentWrapper {
 	background-color: #17a5cc;
-	height: 400px;
 	position: relative;
-	top: 12px;
+	padding: 20px 0;
 }
 
 #logoContentTextWrapper {
-	width: 430px;
+	text-align: center;
 }
 
 #logoContent {
@@ -167,15 +163,17 @@ table, th, tr, td {
 }
 
 #logoContent h1 {
-	font-size: 3em;
+	font-size: 1.8em;
+	margin: 0;
+	padding-bottom: 0.3em;
 }
 
 .androidCell {
 	position: absolute;
-	right: 0;
-	top: -42px;
-	width: 512px;
-	height: 512px;
+	right: 90px;
+	top: -18px;
+	width: 256px;
+	height: 256px;
 }
 
 /* @end */
@@ -188,13 +186,13 @@ table, th, tr, td {
 }
 
 #leadingContent {
-	padding: 40px;
+	padding: 30px;
 	text-align: center;
 }
 
 #leadingContent img.logos {
 	width: 350px;
-	margin: 0 20px;
+	margin: 0 40px;
 }
 
 .userBox {
@@ -206,7 +204,6 @@ table, th, tr, td {
 	list-style: none;
 	margin: 0 auto;
 	padding: 0;
-	display: inline;
 }
 
 .inquiryMenu li {
@@ -249,6 +246,12 @@ table, th, tr, td {
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
 	border: 1px solid #5f2d20;
 	background-color: #81452e;
+}
+
+.inquiryMenu li .description {
+	padding: 0;
+	color: black;
+	font-size: 90%;
 }
 
 .inquiryMenu .inquiryMenuSelectedOption {
@@ -325,13 +328,15 @@ table, th, tr, td {
 .inquiryBox .inquiryDatabaseListAuthor {
 	font-weight: bold;
 }
+
 .inquiryBox .inquiryDatabaseListTheme {
 	font-style: italic;
 	font-size: 0.7em;
 }
+
 .inquiryBox .inquiryDatabaseListDescription {
 	color: gray;
-	font-size: 0.7em;
+	font-size: 80%;
 }
 
 .inquiryBox .inquiryHeaderBox, .inquiryBox .inquiryAlternativeBox {
@@ -487,15 +492,33 @@ table, th, tr, td {
 
 #mainContentWrapper {
 	background-color: white;
-	min-height: 150px;
+	padding: 20px 0;
+	text-align: justify;
+	min-height: 250px;
 }
 
 #mainContent {
 	padding: 0;
+	font-size: 90%;
 }
 
-#mainContent .description {
-	font-size: 0.8em;
+#mainContent > .description {
+	text-align: left;
+}
+
+#mainContent > .title {
+	text-align: left;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#mainContent .inquiryMenu {
+	margin: 30px auto;
+}
+
+#mainContent .lattes {
+	width: 48px;
+	height: 48px;
 }
 
 /* @end */
@@ -549,12 +572,11 @@ table, th, tr, td {
 }
 
 #pranchetaContent .toolBoxOptionsOpen .documentBadge {
-	background: url("../images/48-doc.png") no-repeat 0px -8px;
+	background: url("../images/48-doc.png") no-repeat 0px 0px;
 	display: inline-block;
 	width: 48px;
 	height: 48px;
-	position: relative;
-	top: 8px;
+	padding-top: 10px; /* Internal margin for text */
 	cursor: pointer;
 }
 
@@ -568,12 +590,44 @@ table, th, tr, td {
 	cursor: pointer;
 }
 
-#pranchetaContent .screenRatio-4-3 {
-	padding: 15px 20px;
+#pranchetaContent .screenDivider {
+	border-bottom: 2px solid black;
+	margin: 20px 0;
+}
+
+/* Some screen ratios */
+/*	LANDSCAPE 	*/
+#pranchetaContent .screenRatio-2-3 {
+	padding: 24px 32px;
+}
+
+#pranchetaContent .screenRatio-9-16 {
+	padding: 18px 32px;
+}
+
+#pranchetaContent .screenRatio-3-5 {
+	padding: 18px 30px;
+}
+
+#pranchetaContent .screenRatio-5-8 {
+	padding: 20px 32px;
+}
+
+/*	PORTRAIT 	*/
+#pranchetaContent .screenRatio-3-2 {
+	padding: 32px 24px;
 }
 
 #pranchetaContent .screenRatio-16-9 {
-	padding: 18px 32px;
+	padding: 32px 18px;
+}
+
+#pranchetaContent .screenRatio-5-3 {
+	padding: 30px 18px;
+}
+
+#pranchetaContent .screenRatio-8-5 {
+	padding: 32px 20px;
 }
 
 #pranchetaContent .screenRatioSelected {
@@ -662,7 +716,7 @@ table, th, tr, td {
 	cursor: pointer;
 }
 
-#pranchetaContent .lateralContent .iPhoneDevice {
+#pranchetaContent .lateralContent .deviceImage {
 	margin: 0;
 	padding: 0;
 	width: 300px;
@@ -671,13 +725,73 @@ table, th, tr, td {
 
 #pranchetaContent .deviceContent {
 	position: absolute;
+	font: none;
+}
+
+#pranchetaContent .deviceContent.iphone-Portrait {
 	top: 122px;
 	right: 42px;
 	background-color: white;
 	width: 245px;
 	height: 367px;
-	font: none;
 }
+
+#pranchetaContent .deviceContent.galaxyS3-Portrait {
+	top: 132px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
+#pranchetaContent .deviceContent.nexus-Portrait {
+	top: 122px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
+#pranchetaContent .deviceContent.xoom-Portrait {
+	top: 122px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
+#pranchetaContent .deviceContent.iphone-Landscape {
+	top: 122px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
+#pranchetaContent .deviceContent.galaxyS3-Landscape {
+	top: 122px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
+#pranchetaContent .deviceContent.nexus-Landscape {
+	top: 122px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
+#pranchetaContent .deviceContent.xoom-Landscape {
+	top: 122px;
+	right: 42px;
+	background-color: white;
+	width: 245px;
+	height: 367px;
+}
+
 
 div.wysiwyg ul.toolbar li.indexUp {
     background-position: -192px -144px !important;

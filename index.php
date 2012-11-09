@@ -20,9 +20,9 @@
 			<div id="logoContent" class="centralize">
 <!--				<a href="#">
 					<img src="images/logo.png" id="logoImagem" alt="Logo do Projeto" />
-				</a>-->
+				</a>
 				
-				<img src="images/chalkboard.png" class="androidCell" alt="Android" />
+				<img src="images/chalkboard.png" class="androidCell" alt="Android" />-->
 				
 				<div id="logoContentTextWrapper">
 				
@@ -45,8 +45,28 @@
 		<div id="mainContentWrapper">
 			<div id="mainContent" class="centralize">
 				
-				<p class="description">O Estuda é o resultado de um projeto de iniciação científica desenvolvido na Universidade de São Paulo (USP) no Instituto de Ciências Matemáticas e Computação (ICMC), localizado na cidade de São Carlos - SP. </p>
-				<p class="description">A meta é obter uma plataforma capaz de tornar a aprendizagem dos alunos (desde do Ensino Maternal até o Superior) cada vez mais didática e interessante.</p>
+				<p class="description">Uma das grandes dificuldades do professor relacionada ao uso de
+dispositivos móveis no processo de ensino e aprendizagem é criar
+conteúdo de boa qualidade. Em diversos estudos, pesquisadores apontam
+que o professor precisa dispor de muito tempo para criar material
+educacional. Algumas pesquisas apontam que para cada hora em sala de
+aula, o professor pode gastar até 200 horas para preparar material de
+apoio de boa qualidade. Essa situação se agrava quando existe a
+necessidade utilizar ferramentas inadequadas para o desenvolvimento de
+conteúdo. Essa tem sido uma das razões da resistência do professor em
+utilizar novas ferramentas no ensino, incluindo o uso de celulares e
+tablets.</p>
+				<p class="description">Assim, o principal objetivo deste projeto é o desenvolvimento de uma
+ferramenta amigável de autoria de conteúdo para dispositivos móveis. A
+criação de tal ferramenta de autoria permite agilizar o processo de
+criação de material didático e aumenta a qualidade dos mesmos. Também
+é objetivo  apoiar a interação entre o grupo de pesquisa em Computação
+Aplicada à Educação do ICMC-USP e as escolas públicas brasileiras.
+Isso facilitará a geração e a transferência de resultados de pesquisa
+para o ambiente escolar. Dessa forma, pretende-se criar um ambiente
+favorável para, ao mesmo tempo, responder questões de pesquisa e
+auxiliar professores e alunos durante o processo de
+ensino-aprendizagem.</p>
 			
 			</div>
 			

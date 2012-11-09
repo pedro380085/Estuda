@@ -48,16 +48,25 @@ $(document).ready(function() {
 
 			var width = windowWidth / ratio;
 			
-			// Attention to the new ratios being calculated and applied
-			if ($(".screenRatioSelected").hasClass("screenRatio-4-3")) {
-				$(this).animate({
-					height: (width * 3 / 4)
-				});
-			} else if ($(".screenRatioSelected").hasClass("screenRatio-16-9")) {
-				$(this).animate({
-					height: (width * 9 / 16)
-				});
+			// Read screen ratio directly from ratio
+			// First we are going to select our class
+			var matches = /(screenRatio\-[0-9]+\-[0-9]+)/.exec($(".screenRatioSelected").attr("class"));
+			var className = matches[1];
+
+			// Then we will filter the height and the width from it
+			var regex = /([0-9]+)/g;
+			var result = [];
+			while ((matches = regex.exec(className)) != null) {
+				result.push(matches[0]);
 			}
+
+			var ratioWidth = parseInt(result[0]);	
+			var ratioHeight = parseInt(result[1]);
+
+			// And then we animate the transition
+			$(this).animate({
+				height: (width * ratioHeight / ratioWidth)
+			});
 		});
 
 		// And then all its children
@@ -347,6 +356,9 @@ $(document).ready(function() {
 	$(".toolBox .toolOpen").live("click", function () {
  		$board = $("boardContent");
 
+ 		// Clean board
+ 		$board.find(".objectWrapper").remove();
+
  		// Get the documentID
  		var documentID = $board.find("#documentID").val();
 
@@ -378,8 +390,15 @@ $(document).ready(function() {
 				documentID: documentID
 			},
 			function(data) {
-				$(".toolBoxOptionsOpen").html(data).slideDown(400);
+
+				var $options = $(".toolBoxOptionsOpen").stop(true, true);
+
+				$options.html("<p>O documento id <b>" + documentID + "</b> foi carregado.").slideDown(400);
 				$(".boardContent").loadData($("<p></p>").html(data).text()).find("#documentID").val(documentID);
+
+				// Slide it back after 6s
+				$options.delay(6000).slideUp(400);
+
 			}, 'html' );
 	});
 	
@@ -397,15 +416,35 @@ $(document).ready(function() {
 			var $boardContent = $(".boardContent");
 			var width = $boardContent.width();
 
-			if ($(this).hasClass("screenRatio-4-3")) {
-				$boardContent.animate({
-					height: (width * 3 / 4)
-				});
-			} else if ($(this).hasClass("screenRatio-16-9")) {
-				$boardContent.animate({
-					height: (width * 9 / 16)
-				});
+			// Read screen ratio directly from ratio
+			// First we are going to select our class
+			var matches = /(screenRatio\-[0-9]+\-[0-9]+)/.exec($(this).attr("class"));
+			var className = matches[1];
+
+			// Then we will filter the height and the width from it
+			var regex = /([0-9]+)/g;
+			var result = [];
+			while ((matches = regex.exec(className)) != null) {
+				result.push(matches[0]);
 			}
+	
+			var ratioHeight = parseInt(result[0]);
+			var ratioWidth = parseInt(result[1]);
+
+			// And then we animate the transition
+			$boardContent.animate({
+				height: (width * ratioHeight / ratioWidth)
+			});
+
+			// Reference to our device
+			var $device = $(".lateralContent .deviceImage");
+
+			// Now we can change the device image
+			$device.attr("src", "images/" + $(this).attr("title") + ".png");
+			// Then we can set its new height calculated proportionally from the last device
+			$device.height($device.height() * ratioHeight / ratioWidth);
+			// And we can set a class on its contents so it can be properly resized
+			$device.siblings(".deviceContent").addClass($(this).attr("title"));
 
 			$(".toolBox .toolScreen").trigger("click");
 		}

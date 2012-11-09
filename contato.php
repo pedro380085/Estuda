@@ -45,24 +45,9 @@
 		<div id="mainContentWrapper">
 			<div id="mainContent" class="centralize">
 				
-				<p class="description">Dentro de nosso projeto, os trabalhos se dividem em dois grupos de desenvolvimento: <b>Web</b> e <b>Móvel</b>. </p>
+				<p class="description">Para entrar em contato com membros desse projeto, entre em nossa página de <a href="sobre.php">Equipe.</a></p>
 				
-				<p class="title">Web</p>
-				<p class="description">Dentro do grupo Web, temos como objetivo criar uma plataforma que permita a autoria de contéudo e forneça para os despositivos móveis acesso a estes dados que foram criados pela ferramenta.Para facilitar o desenvolvimento, dividimos nossos trabalhos em pequenas ferramentas, que ao longo do tempo virão a integrar uma única plataforma.</p>
-				
-				<p class="description">Para acompanhar nossos trabalhos atuais, clique em um dos blocos abaixo:</p>
-				
-				<ul class="inquiryMenu centralize">
-					<a target="_blank" href="pergunta.php"><li>Questionário &amp; Listas <p class="description">Ferramenta para a criação de formulários.</p> </li></a>
-					<a target="_blank" href="prancheta.php"><li>Autoria <p class="description">Ferramenta para autoria de conteúdo.</p> </li></a>
-				</ul>
-				
-				<ul class="inquiryMenu centralize">
-					<a target="_blank" href="developer/"><li>API <p class="description">Acesso dos dados criados atráves da ferramenta de autoria.</p> </li></a>
-				</ul>
-				
-				<p class="title">Móvel</p>
-				<p class="description">O desenvolvimento do aplicativo se encontra com a interface pronta, tendo agora iniciado o desenvolvimento da parte de redes para futura comunicação com a API.</p>
+				<p class="description">Esse projeto faz parte do Laboratório de Computação Aplicada a Educação (CAEd), grupo que tem como objetivo desenvolver atividades de ensino, pesquisa e extensão de forma a gerar conhecimento de vanguarda, profissionais especializados e produtos tecnológicos inovadores que tem o potencial de auxiliar o processo de ensino e aprendizagem nos mais diversos domínios de conhecimento. Para saber mais, acesse o <a href="https://sites.google.com/site/labcaed/equipe">site</a>. </p>
 			
 			</div>
 			

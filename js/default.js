@@ -10,6 +10,10 @@ $(document).ready(function() {
 	var $mainContent = $(contentTag), $document = $(document), $loadingContent = $(loadingHtml);
 	
 	$(window).delegate("a", "click", function() {
+		if ($(this).attr("target") == "_blank") {
+			return true;
+		}
+	
 		if ($(this).attr("href").substr(0, 7) == "http://") {
 			return true;
 		}
@@ -26,26 +30,34 @@ $(document).ready(function() {
 			return true;
 		}
 		
-	    window.location.hash = $(this).attr("href").replace(fileType, "");
+	    window.location.hash = $(this).attr("href");
 		
 	    return false;
 	});
 	
 	$(window).bind('hashchange', function(){
+
+		// Set a hash case it is not there
+		if (window.location.hash == "") {
+			var index = window.location.pathname.lastIndexOf('/'); 
+			window.location.hash = window.location.pathname.substring(index+1);
+		}
 		
+		// Clean the fileType
 		window.location.hash = window.location.hash.replace(fileType, "");
 	
+		// Get the new hash
 	    newHash = window.location.hash.substring(1);
 	    
 	    if (newHash) {
 	        $mainContent.fadeOut(300, function() {
 	        	$mainContent.after($loadingContent);
-                $mainContent.hide().load(newHash + fileType + " " + contentTag, function() {
-                    $mainContent.fadeIn(300);
-                    $loadingContent.remove();
-                    hashChangeWrapper(newHash);
-                });
-            });
+	            $mainContent.hide().load(newHash + fileType + " " + contentTag, function() {
+	                $mainContent.fadeIn(300);
+	                $loadingContent.remove();
+	                hashChangeWrapper(newHash);
+	            });
+	        });
 	    }
 	    
 	});

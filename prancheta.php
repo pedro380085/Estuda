@@ -17,8 +17,15 @@
 				
 				<div class="toolBoxWrapper">
 					<div class="toolBoxOptions toolBoxOptionsScreen">
-						<div class="screenRatio screenRatio-4-3 screenRatioSelected">4:3</div>
-						<div class="screenRatio screenRatio-16-9">16:9</div>				
+						<div title="iphone-Portrait" class="screenRatio screenRatio-3-2 screenRatioSelected">2:3</div>
+						<div title="galaxyS3-Portrait" class="screenRatio screenRatio-16-9">9:16</div>	
+						<div title="nexus-Portrait" class="screenRatio screenRatio-5-3">3:5</div>
+						<div title="xoom-Portrait" class="screenRatio screenRatio-8-5">5:8</div>
+						<div class="screenDivider"></div>
+						<div title="iphone-Landscape" class="screenRatio screenRatio-2-3">3:2</div>
+						<div title="galaxyS3-Landscape" class="screenRatio screenRatio-9-16">16:9</div>	
+						<div title="nexus-Landscape" class="screenRatio screenRatio-3-5">5:3</div>
+						<div title="xoom-Landscape" class="screenRatio screenRatio-5-8">8:5</div>
 					</div>
 					
 					<div class="toolBoxOptions toolBoxOptionsExport">
@@ -56,8 +63,8 @@
 					<input type="hidden" id="documentID" value="0" />
 					<div class="lateralContent previewMode">
 						<img src="images/48-refresh.png" alt="Refresh" class="toolRefresh">
-						<img src="images/iphone.png" alt="iPhone image" class="iPhoneDevice">
-						<div class="deviceContent"></div>
+						<img src="images/iphone-Portrait.png" alt="Device Image" class="deviceImage">
+						<!-- <div class="deviceContent"></div> -->
 					</div>
 				</div>
 				

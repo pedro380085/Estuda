@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"device",
+				"deviceContent"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"sc",
+				"screenRatio"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
 				"le",
 				"length"
 			],
@@ -136,10 +160,6 @@
 				"no_bold"
 			],
 			[
-				"sc",
-				"SCRIPT	Tag"
-			],
-			[
 				"if",
 				"ife	if … else"
 			]
@@ -147,14 +167,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "js/prancheta.js",
-			"settings":
-			{
-				"buffer_size": 12199,
-				"line_ending": "Unix"
-			}
-		},
 		{
 			"file": "ajaxPrancheta.php",
 			"settings":
@@ -167,7 +179,15 @@
 			"file": "prancheta.php",
 			"settings":
 			{
-				"buffer_size": 2821,
+				"buffer_size": 3414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/prancheta.js",
+			"settings":
+			{
+				"buffer_size": 13582,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,7 +195,15 @@
 			"file": "css/default.css",
 			"settings":
 			{
-				"buffer_size": 13331,
+				"buffer_size": 15181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 3307,
 				"line_ending": "Unix"
 			}
 		},
@@ -196,14 +224,6 @@
 			}
 		},
 		{
-			"file": "connection.php",
-			"settings":
-			{
-				"buffer_size": 699,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "developer/index.php",
 			"settings":
 			{
@@ -218,6 +238,10 @@
 		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -340,6 +364,12 @@
 	},
 	"file_history":
 	[
+		"/Users/pedro/Sites/Estuda/contato.php",
+		"/Users/pedro/Sites/Estuda/projeto.php",
+		"/Users/pedro/Sites/Estuda/sobre.php",
+		"/Users/pedro/Sites/Estuda/js/default.js",
+		"/Users/pedro/Sites/Estuda/js/prancheta.js",
+		"/Users/pedro/Sites/Estuda/connection.php",
 		"/Users/pedro/Sites/Estuda/js/jquery.wysiwyg.js",
 		"/Users/pedro/Sites/Estuda/includes/header.php",
 		"/Users/pedro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -377,6 +407,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\">",
+			"{",
+			"title=\".*(t|e)\"",
+			"Portrait",
+			"Landscape",
+			"nexus",
+			"PORTRAIT",
+			"screenRatioSelected",
+			"ratioWidth",
+			"prancheta",
+			"pergunta",
+			" class=\"\"",
+			"inquiryMenuListOption",
+			"inquiryMenuQuestionOption",
+			"description",
+			"a href=\"htt",
+			"<img ",
+			"Criar",
+			"inquiryMenuSelectedOption",
+			"368",
+			"512px;",
 			"width",
 			"setCon",
 			"height",
@@ -452,38 +503,11 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/prancheta.js",
-					"settings":
-					{
-						"buffer_size": 12199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3555,
-								3555
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1845.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "ajaxPrancheta.php",
 					"settings":
 					{
@@ -494,8 +518,35 @@
 						"selection":
 						[
 							[
-								1617,
-								1617
+								1924,
+								1967
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "prancheta.php",
+					"settings":
+					{
+						"buffer_size": 3414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
 							]
 						],
 						"settings":
@@ -511,27 +562,27 @@
 				},
 				{
 					"buffer": 2,
-					"file": "prancheta.php",
+					"file": "js/prancheta.js",
 					"settings":
 					{
-						"buffer_size": 2821,
+						"buffer_size": 13582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								847,
-								847
+								10971,
+								10971
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 6007.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -541,15 +592,15 @@
 					"file": "css/default.css",
 					"settings":
 					{
-						"buffer_size": 13331,
+						"buffer_size": 15181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10346,
-								10346
+								11096,
+								11096
 							]
 						],
 						"settings":
@@ -558,13 +609,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7614.0,
+						"translation.y": 8584.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 3307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "includes/core.php",
 					"settings":
 					{
@@ -590,7 +668,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "includes/loginCheck.php",
 					"settings":
 					{
@@ -603,32 +681,6 @@
 							[
 								0,
 								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "connection.php",
-					"settings":
-					{
-						"buffer_size": 699,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								232
 							]
 						],
 						"settings":
@@ -663,7 +715,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2220.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -717,8 +769,16 @@
 		"selected_items":
 		[
 			[
+				"pran",
+				"prancheta.php"
+			],
+			[
+				"de",
+				"js/default.js"
+			],
+			[
 				"inde",
-				"developer/index.php"
+				"index.php"
 			],
 			[
 				"defa",

@@ -49,15 +49,6 @@
 				
 				
 				<table rules="groups">
-				
-<!--					<thead>
-						<th>
-							<td>Nome</td>
-							<td>Posição</td>
-							<td>Contato</td>
-						</th>
-					
-					</thead>-->
 					
 					
 					<tbody>
@@ -66,27 +57,31 @@
 							<td>Nome</td>
 							<td>Posição</td>
 							<td>Contato</td>
+							<td>Lattes</td>
 						</tr>
 						
 						
 						<tr>
 							<td>Seiji Isotani</td>
 							<td>Professor Doutor</td>
-							<td>Nenhum</td>
+							<td> <a href="mailto:sisotani@icmc.usp.br">sisotani@icmc.usp.br</a> </td>
+							<td> <a target="_blank" href="http://lattes.cnpq.br/3030047284254233"><img class="lattes" src="images/lattes.jpg" alt="Currículo Lattes"></a></td>
 						</tr>
 						
 						
 						<tr>
 							<td>Pedro Góes</td>
 							<td>Estudante</td>
-							<td>Nenhum</td>
+							<td> <a href="mailto:pedro.goes@usp.br">pedro.goes@usp.br</a> </td>
+							<td> <a target="_blank" href="http://lattes.cnpq.br/4087120538553247"><img class="lattes" src="images/lattes.jpg" alt="Currículo Lattes"></a></td>
 						</tr>
 						
 						
 						<tr>
 							<td>Bruno Orlandi</td>
 							<td>Estudante</td>
-							<td>Nenhum</td>
+							<td> <a href="mailto:brorlandi@grad.icmc.usp.br">brorlandi@grad.icmc.usp.br</a> </td>
+							<td> <a target="_blank" href="http://lattes.cnpq.br/0967727033325585"><img class="lattes" src="images/lattes.jpg" alt="Currículo Lattes"></a></td>
 						</tr>
 					
 					</tbody>
